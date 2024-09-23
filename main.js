@@ -9,7 +9,13 @@ function areaQuadrado (lado) {
 }
 console.log (areaQuadrado (5))
 
-let areaTriangulo= function(base,altura,divisao){
-    return  (base*altura / divisao)**  ;
+let areaTriangulo= function(base,altura){
+    return  (base*altura)/2  ;
 }
-console.log(areaTriangulo(265,145,2))
+console.log(areaTriangulo(200,100,2));
+
+let nome = prompt(qual é seu nome?);
+document. write (nome);
+
+let media = parseInt (prompt (Qual a media dos valores?));
+document.write (2,4,6);
