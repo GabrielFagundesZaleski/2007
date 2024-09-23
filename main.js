@@ -1,5 +1,5 @@
-// // let seuNome = ('gabriel');
-// // alert(gabriel);
+ let seuNome = ('gabriel');
+alert(gabriel);
  function soma (numero1,numero2) {
 return numero1 + numero2;
 }
@@ -14,10 +14,9 @@ let areaTriangulo = function(base,altura){
 }
 console.log (areaTriangulo(200,100,2));
 
-let nome = prompt('Qual é seu nome?');
-document. write (nome);
 
-let media = parseInt (prompt ('Qual a media dos valores?'));
+
+let media1 = parseInt (prompt ('Qual a media dos valores?'));
 function media (numero1,numero2,numero3){
     return (numero1,numero2,numero3)/3;
 }
