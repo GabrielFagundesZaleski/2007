@@ -24,9 +24,14 @@
 
 let estados= ['ac', 'al', 'ap', 'am', 'ba', 'ce', 'es', 'go', 'ma', 'mt', 'ms', 'mg', 'pa', 'pb', 'pr', 'pe', 'pi', 'rj', 'rm', 'rs', 'ro', 'rr', 'sc', 'sp', 'se', 'to', 'df']
 
-let i=0;
-while (i<estados.length){
-     console.log (i); 
-     i++;
-     console.log(estados[i]);
+// let i=0;
+// while (i<estados.length){
+//      console.log (i); 
+//      i++;
+//      console.log(estados[i]);
+// }
+
+for (let i = 0; i < estados.length; i++) {
+   console.log(estados[i]);
+    
 }
