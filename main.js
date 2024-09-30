@@ -26,6 +26,7 @@ let estados= ['ac', 'al', 'ap', 'am', 'ba', 'ce', 'es', 'go', 'ma', 'mt', 'ms', 
 
 let i=0;
 while (i<estados.length){
-     console.log (i); console.log(estados[i]);
-     i=i+1;
+     console.log (i); 
+     i++;
+     console.log(estados[i]);
 }
